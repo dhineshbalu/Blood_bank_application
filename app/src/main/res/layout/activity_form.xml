@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhina.myapplication.form">
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="phone number.."
+        android:inputType="text"
+        android:textColor="#e8ae71"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="47dp"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:textColor="#e8ae71"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/number"
+        android:layout_alignLeft="@+id/number"
+        android:layout_alignStart="@+id/number" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:textColor="#e8ae71"
+        android:layout_below="@+id/spinner1"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_alignStart="@+id/spinner1"
+        android:layout_marginTop="46dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:textColor="#e8ae71"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/spinner2"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_alignStart="@+id/spinner2" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="save!"
+        android:background="#959fc6"
+        android:textColor="#edeff7"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/spinner3"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

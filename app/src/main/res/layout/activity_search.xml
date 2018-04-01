@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhina.myapplication.search"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/fdf"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textColor="#fcf7f2"
+        android:text="Donor Details"
+        android:paddingTop="20px"
+        android:background="#7f7c79"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:textColor="#686aa5"
+
+            />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:textColor="#686aa5"
+            />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="filter"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#8bdb85"
+            android:textColor="#e8e8e8"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/simpleListView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:background="#efdeb1"
+        android:layout_marginRight="30dp"
+        />
+
+</LinearLayout>

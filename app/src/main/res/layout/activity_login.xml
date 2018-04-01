@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhina.myapplication.login">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginTop="108dp"
+
+        android:ems="10"
+        android:hint="Name"
+        android:textColor="#8dcfe8"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="password"
+        android:textColor="#8dcfe8"
+        android:inputType="textPassword"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="62dp"
+        android:textColor="#f7f7f7"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="74dp"
+        android:background="#6fce85"
+        android:text="login"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+</RelativeLayout>

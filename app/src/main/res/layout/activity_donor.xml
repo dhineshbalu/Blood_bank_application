@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhina.myapplication.donor"
+    android:orientation="vertical">
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="50dp"
+
+         android:text="Recipient details"
+         android:textColor="#fcf7f2"
+         android:textSize="24dp"
+         android:textStyle="bold"
+         android:paddingTop="10dp"
+         android:background="#7f7c79"
+         android:textAlignment="center"/>
+    <ListView
+        android:id="@+id/simpleListView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        android:background="#c3e5e2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+
+</LinearLayout>
